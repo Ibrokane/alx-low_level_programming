@@ -4,7 +4,7 @@
  *
  * Return: aways 0
  */
- int main(void)
+int main(void)
 {
 	char uplo[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
