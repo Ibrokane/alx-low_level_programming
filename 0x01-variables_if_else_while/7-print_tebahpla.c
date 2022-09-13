@@ -12,8 +12,8 @@ int main(void)
 
 	for (i = 25; 1 >= 0; i--)
 	{
-		j = alpha[i]
-			putchar(j);
+		j = alpha[i];
+		putchar(j);
 	}
 	putchar('\n');
 	return (0);
