@@ -3,16 +3,19 @@
 /**
  * main - print "_putchar"
  *
- * Return: 0
+ * Return: Always 0
  */
 int main(void)
 {
-	char var[] = "_putchar";
-	int lenghth = 8;
-	int i;
-
-	for (i = 0; i < length; i++)
-		_putchar(var[i]);
+	putchar('');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
