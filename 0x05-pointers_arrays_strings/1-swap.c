@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ * swap_int - change the position of two numbers
+ *
+ * @a: pointer variable of the first number
+ * @b: pointer variable of the second number
+ * Author: Hamzat Ibrahim
+ * Return: none
+ */
+void swap_int(int *a, int *b)
+{
+	int tmp;
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
+}
